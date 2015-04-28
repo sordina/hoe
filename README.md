@@ -99,3 +99,29 @@ $ hoe '2^100'
 ```
 $ hoe 'forM [1..10] $ \i -> writeFile ("file."++show i) ""'
 ```
+
+`hoe` imports the following modules by default:
+
+* Prelude
+* Control.Applicative
+* Control.Arrow
+* Control.Monad
+* Data.Bits
+* Data.Char
+* Data.Complex
+* Data.Either
+* Data.Function
+* Data.List
+* Data.Maybe
+* Data.Monoid
+* Data.Ord
+* Data.Ratio
+* Numeric
+* System.IO
+* System.IO.Unsafe
+* System.Info
+* System.Random
+* Text.Printf
+* Data.List.Split
+* Data.Time
+* Text.Regex.Posix
